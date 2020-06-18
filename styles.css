@@ -40,7 +40,7 @@ thead {
 } */
 .button {
 padding: 0 17px;
-
+  
 /* disable text select */
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -49,6 +49,7 @@ padding: 0 17px;
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+  
 }
 /* .tall {
   padding: 0 px;
