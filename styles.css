@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(
+      rgba(50, 255, 50, 0.3),
+      rgba(150, 255, 0, 0.3)
+    ),
+    url("images/minecraft-stone.jpg");
+  /* background-image: url("images/minecraft-stone.jpg");
+  background-color: #f0f0f0; */
+  font-family: 'VT323', monospace;
+}
+header {
+  text-align: center;
+  color: #2e2e2e;
+}
+h1 {
+  font-size: 4.5em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+}
+main {
+  text-align: center;
+}
+table {
+  margin: auto;
+  text-align: center;
+  border: 5px outset #5e5e5e;
+}
+thead {
+  background-color: #2e2e2e30;
+  color: #2e2e2e;
+  /* color: #353535; */
+  font-size: 5.2rem;
+  text-align: right;
+  font-family: 'VT323', monospace;
+}
+/* tbody {
+
+} */
+.button {
+padding: 0 17px;
+}
+/* .tall {
+  padding: 0 px;
+} */
+.highlight {
+  box-shadow: inset 0px 0px 18px 1px yellow;
+}
+.chosen {
+  background-color: #2e2e2ebb;
+}
+td:hover {
+  background-color: #2e2e2ebb;
+  cursor: pointer;
+}
+td {
+  background-color: #2e2e2e;
+  color: #f0f0f0;
+  font-size: 4rem;
+  border: 3px outset #eee;
+  width: 25%;
+  height: 20%;
+}
