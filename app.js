@@ -111,25 +111,7 @@ function calc(num1, num2, operator) {
   return operator(num1, num2);
 }
 
-// FIX CODE
-//
-// function blink() {
-//   if(message.innerHTML === "Hi") {
-//     message.innerHTML = "Bye";
-//   } else if (message.innerHTML === "Bye") {
-//       message.innerHTML = "Hi";
-//   }
-// }
-
 // EVENT LISTENERS
-
-// for(var i = 0; i < buttons.length; i++) {
-//   buttons[i].addEventListener("click", function() {
-//     console.log("hey!");
-//   });
-//   }
-
-
 
 for(var i = 0; i < operators.length; i++) {
   operators[i].addEventListener("click", select);

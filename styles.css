@@ -35,12 +35,9 @@ thead {
   text-align: right;
   font-family: 'VT323', monospace;
 }
-/* tbody {
-
-} */
 .button {
 padding: 0 17px;
-  
+
 /* disable text select */
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -49,13 +46,12 @@ padding: 0 17px;
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-  
 }
-/* .tall {
-  padding: 0 px;
-} */
+.tall {
+  padding: 37px 17px;
+}
 .highlight {
-  box-shadow: inset 0px 0px 18px 1px yellow;
+  box-shadow: inset 0 0 18px 1px yellow;
 }
 .chosen {
   background-color: #2e2e2ebb;
